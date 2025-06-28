@@ -78,6 +78,6 @@ We aim to develop a graph ensemble based **consensus framework** that integrates
 
 ## 📎 Resources
 
-- 📄 [Full Report (PDF)](./Report-2-1.pdf)  
-- 🎞️ [Presentation Slides (PDF)](./Presentation-2-1.pdf)
+- 📄 [Full Report (PDF)](./Project Report.pdf)  
+- 🎞️ [Presentation Slides (PDF)](./Presentation.pdf)
 
