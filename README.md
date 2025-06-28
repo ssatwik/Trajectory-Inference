@@ -2,9 +2,9 @@
 
 This project benchmarks popular trajectory inference (TI) algorithms used in single-cell RNA sequencing (scRNA-seq) data analysis. It evaluates the strengths and weaknesses of each method using multiple real-world datasets and complementary metrics.
 
-> 📍 **Author**: Satwik Nimmagadda  
-> 🧑‍🏫 **Supervisor**: Dr. Hamim Zafar  
-> 🏫 **Institution**: IIT Kanpur
+> **Author**: Satwik Nimmagadda  
+> **Supervisor**: Dr. Hamim Zafar  
+> **Institution**: IIT Kanpur
 
 ---
 
@@ -66,42 +66,13 @@ All metrics are normalized between 0 and 1. Higher is better.
   - **Branch Assignment (F1)**: Slingshot
   - **Cell Ordering (Correlation)**: VIA
   - **Gene Relevance (FeatureImp_wcor)**: MARGARET
-- **Top 3 Overall (geometric mean across metrics)**:
-  - 🥇 Slingshot — 0.58
-  - 🥈 MARGARET — 0.55
-  - 🥉 Palantir — 0.52
+- **Slingshot**, **MARGARET**, and **Palantir** performed best overall.
 
 ---
 
 ## 🔮 Future Work
 
-We aim to develop a **consensus framework** that integrates the strengths of multiple TI methods to produce more robust and generalizable trajectory reconstructions.
-
----
-
-## 📁 Repository Structure
-
-├── data/ # Preprocessed datasets
-├── methods/ # Wrapper scripts for each TI method
-├── metrics/ # Code for computing evaluation metrics
-├── results/ # Plots and tables summarizing results
-├── utils/ # Helper functions for preprocessing and visualization
-└── README.md # You're here!
-
-
----
-
-## 📚 References
-
-See the [report](./Report-2-1.pdf) for a full list of citations, including:
-
-- Saelens et al., *Nat. Biotechnol.*, 2019
-- Stassen et al., *Nat. Commun.*, 2021 (VIA)
-- Pandey & Zafar, *Nucleic Acids Res.*, 2022 (MARGARET)
-- Setty et al., *Nat. Biotechnol.*, 2019 (Palantir)
-- Wolf et al., *Genome Biol.*, 2019 (PAGA)
-- Street et al., *BMC Genomics*, 2018 (Slingshot)
-- Cannoodt et al., *bioRxiv*, 2016 (SCORPIUS)
+We aim to develop a graph ensemble based **consensus framework** that integrates the strengths of multiple TI methods to produce more robust and consistent trajectory reconstructions.
 
 ---
 
@@ -110,6 +81,3 @@ See the [report](./Report-2-1.pdf) for a full list of citations, including:
 - 📄 [Full Report (PDF)](./Report-2-1.pdf)  
 - 🎞️ [Presentation Slides (PDF)](./Presentation-2-1.pdf)
 
----
-
-Feel free to open an issue if you'd like to reproduce or extend this benchmarking study.
